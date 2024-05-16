@@ -1,0 +1,40 @@
+/*CSS FOR GALERI KARAKTER & CONTACT */
+.nav-cont{
+    background-color: rgba(1, 126, 199, 0.948);
+    font-size: 20px;
+    border: solid 1px;
+    height: 50px;
+    top: 0;
+    width: 100%;
+}
+
+.nav-cont a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+.nav-cont a:hover{
+    background-color: rgb(5, 255, 238);
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 5px;
+}
+
+.logo{
+    float: right;
+    text-align: center;
+    display: flex;
+    margin: 2px;
+    padding: 10px;
+    font-size:20px;
+    text-shadow: 100px;
+    color: rgb(251, 255, 0);
+    border: solid 2px;
+    border-radius: 5px;
+    border-color: red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
